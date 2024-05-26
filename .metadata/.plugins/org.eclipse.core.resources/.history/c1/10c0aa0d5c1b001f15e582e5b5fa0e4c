@@ -1,0 +1,14 @@
+package samplepack;
+
+import java.util.Properties;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Properties prop = new Properties();
+		
+
+	}
+
+}

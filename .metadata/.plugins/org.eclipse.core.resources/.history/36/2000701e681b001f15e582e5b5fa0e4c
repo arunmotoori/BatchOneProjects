@@ -1,0 +1,28 @@
+package pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class HomePage {
+	
+	WebDriver driver;
+	
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	private WebElement myAccountDropMenu = driver.findElement(By.xpath("//span[text()='My Account']"));
+	private WebElement loginOption = driver.findElement(By.linkText("Login"));
+	
+	
+	public void clickOnMyAccountDropMenu() {
+		myAccountDropMenu.click();
+	}
+	
+	public void selectLoginOption() {
+		loginOption.click();
+	}
+	
+	
+}

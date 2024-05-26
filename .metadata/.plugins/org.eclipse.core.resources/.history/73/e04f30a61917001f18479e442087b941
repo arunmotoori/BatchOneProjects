@@ -1,0 +1,40 @@
+package tests;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class AssertertionsDemo {
+	
+	@Test(priority=1)
+	public void sampleTestOne() {
+		
+		String expectedName = "Arun";
+		String actualName = "Arun";
+		String actualName2 = "Motoori";
+		int a = 5;
+		int b = 5;
+		int c = 10;
+		
+		//Assert.assertEquals(actualName, expectedName);
+		//Assert.assertEquals(actualName2, expectedName);
+		//Assert.assertEquals(a,b);
+		Assert.assertEquals(a,c);
+		
+	}
+	
+	@Test(priority=2)
+	public void sampleTestTwo() {
+		
+		//int a = 5, b = 4;
+		//int a = 4, b = 5;
+		String name1 = "Arun";
+		String name2 = "Arun";
+		String name3 = "Varun";
+		
+		//Assert.assertTrue(a>b);
+		//Assert.assertTrue(name1.equals(name2));
+		Assert.assertTrue(name1.equals(name3));
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteOne">
+	<test name="TestOne">
+		<classes>
+			<class name="testngpack.AssertionsDemo" />
+		</classes>
+	</test>
+	<test name="TestTwo">
+		<classes>
+			<class name="testngpack.Login" />
+		</classes>
+	</test>
+	<test name="TestThree">
+		<classes>
+			<class name="testngpack2.BeforeAfterClassAnnotationsDemo" />
+		</classes>
+	</test>
+	<test name="TestFour">
+		<classes>
+			<class name="testngpack2.BeforeAfterMethodAnnoationsDemo" />
+		</classes>
+	</test>
+</suite>

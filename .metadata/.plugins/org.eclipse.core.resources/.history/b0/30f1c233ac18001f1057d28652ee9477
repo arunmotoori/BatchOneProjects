@@ -1,0 +1,75 @@
+package tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Login {
+	
+	@Test(priority=1)
+	public void loginWithValidCredentials() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://omayo.blogspot.com/");
+		
+		Assert.assertTrue(true);
+		
+		driver.quit();
+		
+	}
+	
+	@Test(priority=2)
+	public void loginWithInvalidCredentials() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://omayo.blogspot.com/");
+		
+		Assert.assertTrue(true);
+		
+		driver.quit();
+		
+	}
+	
+	@Test(priority=3)
+	public void loginWithValidEmailAndInvalidPassword() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://omayo.blogspot.com/");
+		
+		Assert.assertTrue(true);
+		
+		driver.quit();
+		
+	}
+	
+	@Test(priority=4)
+	public void loginWithInvalidEmailAndValidPassword() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://omayo.blogspot.com/");
+		
+		Assert.assertTrue(true);
+		
+		driver.quit();
+		
+	}
+	
+	@Test(priority=5)
+	public void loginWithoutEnteringAnyCredentials() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://omayo.blogspot.com/");
+		
+		Assert.assertTrue(true);
+		
+		driver.quit();
+		
+	}
+
+}

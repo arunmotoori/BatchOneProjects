@@ -1,0 +1,31 @@
+package pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class LoginPage {
+	
+	WebDriver driver;
+	
+	public LoginPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	private WebElement emailField = driver.findElement(By.id("input-email"));
+	private WebElement passwordField = driver.findElement(By.id("input-password"));
+	private WebElement loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
+	
+	public void enterLoginEmailAddress(String emailText) {
+		emailField.sendKeys(emailText);
+	}
+	
+	public void enterLoginPassword(String passwordText) {
+		passwordField.sendKeys(passwordText);
+	}
+
+	public WebDriver clickOnLoginButton() {
+		loginButton.click();
+		return driver;
+	}
+}

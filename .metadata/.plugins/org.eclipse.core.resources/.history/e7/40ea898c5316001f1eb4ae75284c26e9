@@ -1,0 +1,120 @@
+package tests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.SkipException;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Ignore;
+import org.testng.annotations.Test;
+
+public class Login {
+	
+	WebDriver driver = null;
+	
+	@AfterMethod
+	public void tearDown() {
+		
+		driver.quit();
+		
+	}
+	
+	//@Test(enabled=false)
+	@Test
+	public void loginWithValidCredentials() {
+		
+//		int i=1;
+//		
+//		if(i==1)
+//			throw new SkipException("Intentionally skipped this test from exception");
+		
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://tutorialsninja.com/demo/");
+		
+		WebElement myAccountOption = driver.findElement(By.xpath("//span[text()='My Account']"));
+		myAccountOption.click();
+		
+		WebElement loginOption = driver.findElement(By.linkText("Login"));
+		loginOption.click();
+		
+		WebElement emailAddressField = driver.findElement(By.id("input-email"));
+		emailAddressField.sendKeys("amotooricap3@gmail.com");
+		
+		WebElement passwordField = driver.findElement(By.id("input-password"));
+		passwordField.sendKeys("12345");
+		
+		WebElement loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
+		loginButton.click();
+		
+		//String expectedTitle = "My Account - TN";
+		String expectedTitle = "My Account";
+		String actualTitle = driver.getTitle();
+		
+		Assert.assertEquals(actualTitle, expectedTitle);
+		
+	}
+	
+	@Test
+	public void loginWithValidEmailAndInvalidPassword() {
+		
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://tutorialsninja.com/demo/");
+		
+		WebElement myAccountDropMenu = driver.findElement(By.xpath("//span[text()='My Account']"));
+		myAccountDropMenu.click();
+		
+		WebElement loginOption = driver.findElement(By.linkText("Login"));
+		loginOption.click();
+		
+		WebElement emailAddressField = driver.findElement(By.id("input-email"));
+		emailAddressField.sendKeys("amotooricap3@gmail.com");
+		
+		WebElement passwordField = driver.findElement(By.id("input-password"));
+		passwordField.sendKeys("123456");
+		
+		WebElement loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
+		loginButton.click();
+		
+		String expectedWarningMessage = "Warning: No match for E-Mail Address and/or Password.";
+		String actualWarningMessage = driver.findElement(By.xpath("//div[contains(@class,'alert-dismissible')]")).getText();
+		
+		Assert.assertEquals(actualWarningMessage, expectedWarningMessage);
+		
+		
+	}
+	
+	@Test
+	public void loginWithInvalidEmailAndValidPassword() {
+		
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://tutorialsninja.com/demo/");
+		
+		WebElement myAccountDropMenu = driver.findElement(By.xpath("//span[text()='My Account']"));
+		myAccountDropMenu.click();
+		
+		WebElement loginOption = driver.findElement(By.linkText("Login"));
+		loginOption.click();
+		
+		WebElement emailAddressField = driver.findElement(By.id("input-email"));
+		emailAddressField.sendKeys("amotooricap3asdfaasdfsadfsdfsf@gmail.com");
+		
+		WebElement passwordField = driver.findElement(By.id("input-password"));
+		passwordField.sendKeys("12345");
+		
+		WebElement loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
+		loginButton.click();
+		
+		String expectedWarningMessage = "Warning: No match for E-Mail Address and/or Password.";
+		String actualWarningMessage = driver.findElement(By.xpath("//div[contains(@class,'alert-dismissible')]")).getText();
+		
+		Assert.assertEquals(actualWarningMessage, expectedWarningMessage);
+		
+	}
+	
+
+}

@@ -1,0 +1,18 @@
+ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
+		
+		WebElement osloCapital = driver.findElement(By.id("box1"));
+		WebElement norwayCountry = driver.findElement(By.id("box101"));
+		WebElement romeCapital = driver.findElement(By.id("box6"));
+		WebElement italyCountry = driver.findElement(By.id("box106"));
+		WebElement WashingtonCapital = driver.findElement(By.id("box3"));
+		WebElement unitedStatesCountry = driver.findElement(By.id("box103"));
+		WebElement seoulCapital = driver.findElement(By.id("box5"));
+		WebElement southKoreaCountry = driver.findElement(By.id("box105"));
+		WebElement stockholmCapital = driver.findElement(By.id("box2"));
+		WebElement swedenCountry = driver.findElement(By.id("box102"));
+		WebElement copenhagenCaptial = driver.findElement(By.id("box4"));
+		WebElement denmarkCoutry = driver.findElement(By.id("box104"));
+		WebElement madridCapital = driver.findElement(By.id("box7"));
+		WebElement spainCountry = driver.findElement(By.id("box107"));

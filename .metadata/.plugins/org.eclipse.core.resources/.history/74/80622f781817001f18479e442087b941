@@ -1,0 +1,18 @@
+package tests;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class AssertertionsDemo {
+	
+	@Test(priority=1)
+	public void sampleTestOne() {
+		
+		String expectedName = "Arun";
+		String actualName = "Arun";
+		
+		Assert.assertEquals(actualName, expectedName);
+		
+	}
+
+}

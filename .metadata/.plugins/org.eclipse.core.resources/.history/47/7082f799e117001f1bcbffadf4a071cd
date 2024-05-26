@@ -1,0 +1,14 @@
+<suite name="SuiteOne">
+	<test name="testOne">
+		<classes>
+			<class name="testngpack.AssertionsDemo"/>
+			<class name="testngpack.Login"/>
+		</classes>
+	</test>
+	<test name="testTwo">
+		<classes>
+			<class name="testngpack.BeforeAfterMethodAnnotationsDemo" />
+			<class name="testngpack.BeforeAfterClassAnnotationsDemo" />
+		</classes>
+	</test>
+</suite>

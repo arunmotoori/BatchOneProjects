@@ -1,0 +1,22 @@
+package testngpack;
+
+import org.testng.annotations.Test;
+
+public class BeforeAfterClassAnnotationsDemo {
+	
+	@Test(priority=1)
+	public void testMethodOne() {
+		System.out.println("--testMethodOne");
+	}
+	
+	@Test(priority=2)
+	public void testMethodTwo() {
+		System.out.println("--testMethodTwo");		
+	}
+	
+	@Test(priority=3)
+	public void testMethodThree() {
+		System.out.println("--testMethodThree");
+	}
+
+}

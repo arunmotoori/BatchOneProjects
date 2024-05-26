@@ -1,0 +1,43 @@
+package tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Login {
+	
+	WebDriver driver = null;
+	
+	@Parameters("URL")
+	@BeforeMethod
+	public void setup(String url) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(url);
+		
+	}
+	
+	public void tearDown() {
+		driver.quit();
+	}
+	
+	@Test(priority=1)
+	public void loginWithValidCredentials() {
+		Assert.assertTrue(true);
+	}
+	
+	@Test(priority=2)
+	public void loginWithInvalidCredentials() {
+		Assert.assertTrue(true);
+	}
+	
+	@Test(priority=3)
+	public void loginWithValidEmailAndInvalidPassword() {
+		Assert.assertTrue(true);
+	}
+	
+}

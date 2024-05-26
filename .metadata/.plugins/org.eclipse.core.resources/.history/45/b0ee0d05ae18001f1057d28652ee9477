@@ -1,0 +1,40 @@
+package tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Register {
+	
+	@Parameters("URL")
+	@Test(priority=1)
+	public void registerWithMandatoryFields(String url) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(url);
+		
+		Assert.assertTrue(true);
+		
+		driver.quit();
+		
+	}
+	
+	@Parameters("URL")
+	@Test(priority=2)
+	public void registerWithAllFields(String url) {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(url);
+		
+		Assert.assertTrue(true);
+		
+		driver.quit();
+		
+	}
+	
+	
+}

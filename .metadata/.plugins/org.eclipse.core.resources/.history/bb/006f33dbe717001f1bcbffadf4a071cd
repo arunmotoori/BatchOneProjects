@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suiteOne">
+	<test name="testOne">
+		<classes>
+			<class name="testngpack.AssertionsDemo" />
+			<class name="testngpack.Login">
+				<methods>
+					<exclude name="loginWithValidCredentials"/>
+					<exclude name="loginWintInvalidCredentials"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="testTwo">
+		<classes>
+			<class name="testngpack.BeforeAfterMethodAnnotationsDemo" />
+		</classes>
+	</test>
+	<test name="testThree">
+		<classes>
+			<class name="testngpack.BeforeAfterClassAnnotationsDemo" />
+		</classes>
+	</test>
+</suite>
