@@ -27,25 +27,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="tpack"/>
-			<item value="fpack"/>
-			<item value="tp.FrameworkConceptsProj"/>
-			<item value="spack"/>
+			<item value="ppack"/>
 		</list>
 		<list key="groupId">
-			<item value="tpep"/>
-			<item value="tpd"/>
-			<item value="fcp"/>
-			<item value="tp"/>
-			<item value="sfp"/>
+			<item value="pp"/>
 		</list>
 		<list key="artifactId">
-			<item value="TestNGParallelExecutionProj"/>
-			<item value="TestNGParameterizationDemo"/>
-			<item value="FrameworkConceptsProject"/>
-			<item value="FrameworkConceptsProj"/>
-			<item value="TempProj"/>
-			<item value="SeleniumFirstProject"/>
+			<item value="POMPFProj"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

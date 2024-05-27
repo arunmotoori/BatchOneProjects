@@ -63,7 +63,7 @@ public class Login {
 		}
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void loginWithValidCredentials() {
 		
 		loginPage = new LoginPage(driver);
@@ -71,9 +71,24 @@ public class Login {
 		loginPage.enterLoginPassword(prop.getProperty("validpassword"));
 		driver = loginPage.clickOnLoginButton();
 		MyAccountPage myAccountPage = new MyAccountPage(driver);
-			
 		Assert.assertTrue(myAccountPage.loggedInStatus());
 		
 	}
+	
+	@Test(priority=2)
+	public void loginWithInvalidCredentials() {
+		
+		loginPage = new LoginPage(driver);
+		loginPage.enterLoginEmailAddress(prop.getProperty("invalidemail"));
+		loginPage.enterLoginPassword(prop.getProperty("invalidpassword"));
+		driver = loginPage.clickOnLoginButton();
+		
+		String expectedWarning = "Warning: No match for E-Mail Address and/or Password.";
+		String actualWarning = loginPage.retrieveWarningMessage();
+		Assert.assertEquals(actualWarning, expectedWarning);
+	
+	}
+	
+	
 
 }

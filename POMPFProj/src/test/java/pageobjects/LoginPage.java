@@ -15,6 +15,7 @@ public class LoginPage {
 	private WebElement emailField;
 	private WebElement passwordField;
 	private WebElement loginButton;
+	private WebElement unsuccessfulLoginWarning;
 	
 	public void enterLoginEmailAddress(String emailText) {
 		emailField = driver.findElement(By.id("input-email"));
@@ -31,4 +32,11 @@ public class LoginPage {
 		loginButton.click();
 		return driver;
 	}
+	
+	public String retrieveWarningMessage() {
+		
+		unsuccessfulLoginWarning = driver.findElement(By.xpath("//div[@class='alert alert-danger alert-dismissible']"));
+		return unsuccessfulLoginWarning.getText();
+	}
+	
 }

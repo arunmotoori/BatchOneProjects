@@ -14,6 +14,7 @@ public class HomePage {
 	
 	private WebElement myAccountDropMenu;
 	private WebElement loginOption;
+	private WebElement registerOption;
 	
 	
 	public void clickOnMyAccountDropMenu() {
@@ -24,6 +25,12 @@ public class HomePage {
 	public WebDriver selectLoginOption() {
 		loginOption = driver.findElement(By.linkText("Login"));
 		loginOption.click();
+		return driver;
+	}
+	
+	public WebDriver selectRegisterOption() {
+		registerOption = driver.findElement(By.linkText("Register"));
+		registerOption.click();
 		return driver;
 	}
 	

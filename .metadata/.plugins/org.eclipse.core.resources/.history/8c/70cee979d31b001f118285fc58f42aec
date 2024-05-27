@@ -1,0 +1,29 @@
+package pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class RegisterPage {
+	
+	WebDriver driver;
+	
+	public RegisterPage(WebDriver driver) {
+		
+		this.driver = driver;
+		
+	}
+	
+	private WebElement firstNameField; 
+	private WebElement lastNameField;
+	
+	public void enterFirstNameToRegister(String firstNameText) {
+		firstNameField = driver.findElement(By.id("input-firstname"));
+		firstNameField.sendKeys(firstNameText);
+	}
+	
+	public void enterLastNameToRegister(String lastNameText) {
+		lastNameField = driver.findElement(By.id("input-lastname"));
+		lastNameField.sendKeys(lastNameText);;
+	}
+}
