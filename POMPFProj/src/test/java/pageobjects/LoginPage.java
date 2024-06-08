@@ -1,8 +1,9 @@
 package pageobjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	
@@ -10,32 +11,40 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
+		PageFactory.initElements(driver,this);
 	}
 	
+	@FindBy(id="input-email")
 	private WebElement emailField;
+	@FindBy(id="input-password")
 	private WebElement passwordField;
+	@FindBy(xpath="//input[@value='Login']")
 	private WebElement loginButton;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']")
 	private WebElement unsuccessfulLoginWarning;
 	
-	public void enterLoginEmailAddress(String emailText) {
-		emailField = driver.findElement(By.id("input-email"));
+	public LoginPage enterLoginEmailAddress(String emailText) {
 		emailField.sendKeys(emailText);
+		return new LoginPage(driver);
 	}
 	
-	public void enterLoginPassword(String passwordText) {
-		passwordField = driver.findElement(By.id("input-password"));
+	public LoginPage enterLoginPassword(String passwordText) {
 		passwordField.sendKeys(passwordText);
+		return new LoginPage(driver);
 	}
 
-	public WebDriver clickOnLoginButton() {
-		loginButton = driver.findElement(By.xpath("//input[@value='Login']"));
+	public MyAccountPage clickOnLoginButton() {
 		loginButton.click();
-		return driver;
+		return new MyAccountPage(driver);
+	}
+	
+	public MyAccountPage login(String emailText,String passwordText) {
+		enterLoginEmailAddress(emailText);
+		enterLoginPassword(passwordText);
+		return clickOnLoginButton();
 	}
 	
 	public String retrieveWarningMessage() {
-		
-		unsuccessfulLoginWarning = driver.findElement(By.xpath("//div[@class='alert alert-danger alert-dismissible']"));
 		return unsuccessfulLoginWarning.getText();
 	}
 	

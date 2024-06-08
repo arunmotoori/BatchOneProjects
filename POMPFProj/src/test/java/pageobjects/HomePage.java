@@ -1,8 +1,9 @@
 package pageobjects;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	
@@ -10,29 +11,62 @@ public class HomePage {
 	
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
+		PageFactory.initElements(driver,this);
 	}
 	
+	@FindBy(xpath="//span[text()='My Account']")
 	private WebElement myAccountDropMenu;
+	
+	@FindBy(linkText="Login")
 	private WebElement loginOption;
+	
+	@FindBy(linkText="Register")
 	private WebElement registerOption;
 	
+	@FindBy(name="search")
+	private WebElement searchBoxField;
 	
-	public void clickOnMyAccountDropMenu() {
-		myAccountDropMenu = driver.findElement(By.xpath("//span[text()='My Account']"));
+	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
+	private WebElement searchButton;
+	
+	public HomePage clickOnMyAccountDropMenu() {
 		myAccountDropMenu.click();
+		return new HomePage(driver);
 	}
 	
-	public WebDriver selectLoginOption() {
-		loginOption = driver.findElement(By.linkText("Login"));
+	public LoginPage selectLoginOption() {
 		loginOption.click();
-		return driver;
+		return new LoginPage(driver);
 	}
 	
-	public WebDriver selectRegisterOption() {
-		registerOption = driver.findElement(By.linkText("Register"));
+	public LoginPage navigateToLoginPage() {
+		clickOnMyAccountDropMenu();
+		return selectLoginOption();
+	}
+	
+	public RegisterPage selectRegisterOption() {
 		registerOption.click();
-		return driver;
+		return new RegisterPage(driver);
 	}
 	
+	public RegisterPage navigateToRegisterPage() {
+		clickOnMyAccountDropMenu();
+		return selectRegisterOption();
+	}
+	
+	public HomePage enterIntoSearchField(String productText) {
+		searchBoxField.sendKeys(productText);
+		return new HomePage(driver);
+	}
+	
+	public SearchPage clickOnSearchButton() {
+		searchButton.click();
+		return new SearchPage(driver);
+	}
+	
+	public SearchPage search(String productText) {
+		enterIntoSearchField(productText);
+		return clickOnSearchButton();
+	}
 	
 }

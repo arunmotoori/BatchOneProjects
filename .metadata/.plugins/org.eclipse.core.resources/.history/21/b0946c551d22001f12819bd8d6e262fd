@@ -1,0 +1,71 @@
+package tests;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Search {
+	
+	@Test(priority=1)
+	public void searchForAValidProduct() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get("https://tutorialsninja.com/demo/");
+		
+		WebElement searchBoxField = driver.findElement(By.name("search"));
+		searchBoxField.sendKeys("HP");
+		WebElement searchButton = driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg']"));
+		searchButton.click();
+		
+		Assert.assertTrue(driver.findElement(By.linkText("HP LP3065")).isDisplayed());
+	
+		driver.quit();
+	}
+	
+	@Test(priority=2)
+	public void searchWithAnInvalidProduct() {
+	
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get("https://tutorialsninja.com/demo/");
+		
+		WebElement searchBoxField = driver.findElement(By.name("search"));
+		searchBoxField.sendKeys("Honda");
+		WebElement searchButton = driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg']"));
+		searchButton.click();
+		
+		String expectedNoProductMessage = "There is no product that matches the search criteria.";
+		String actualNoProductMessage = driver.findElement(By.xpath("//input[@id='button-search']/following-sibling::p")).getText();
+		Assert.assertEquals(actualNoProductMessage, expectedNoProductMessage);
+		
+		driver.quit();
+		
+	}
+	
+	@Test(priority=3)
+	public void searchWithoutAnyProduct() {
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get("https://tutorialsninja.com/demo/");
+	
+		WebElement searchButton = driver.findElement(By.xpath("//button[@class='btn btn-default btn-lg']"));
+		searchButton.click();
+		
+		String expectedNoProductMessage = "There is no product that matches the search criteria.";
+		String actualNoProductMessage = driver.findElement(By.xpath("//input[@id='button-search']/following-sibling::p")).getText();
+		Assert.assertEquals(actualNoProductMessage, expectedNoProductMessage);
+		
+		driver.quit();
+	}
+
+}

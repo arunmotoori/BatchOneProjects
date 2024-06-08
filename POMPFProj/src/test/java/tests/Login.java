@@ -25,8 +25,9 @@ public class Login {
 	
 	WebDriver driver = null;
 	Properties prop = null;
-	HomePage homePage;
 	LoginPage loginPage;
+	HomePage homePage;
+	MyAccountPage myAccountPage;
 	
 	@BeforeMethod
 	public void setup() throws FileNotFoundException, IOException {
@@ -51,8 +52,7 @@ public class Login {
 		driver.get(prop.getProperty("url"));
 		
 		homePage = new HomePage(driver);
-		homePage.clickOnMyAccountDropMenu();
-		driver = homePage.selectLoginOption();
+		loginPage = homePage.navigateToLoginPage();
 	
 	}
 	
@@ -65,30 +65,32 @@ public class Login {
 	
 	@Test(priority=1)
 	public void loginWithValidCredentials() {
-		
-		loginPage = new LoginPage(driver);
-		loginPage.enterLoginEmailAddress(prop.getProperty("validemail"));
-		loginPage.enterLoginPassword(prop.getProperty("validpassword"));
-		driver = loginPage.clickOnLoginButton();
-		MyAccountPage myAccountPage = new MyAccountPage(driver);
+		myAccountPage = loginPage.login(prop.getProperty("validemail"), prop.getProperty("validpassword"));
 		Assert.assertTrue(myAccountPage.loggedInStatus());
-		
 	}
 	
 	@Test(priority=2)
 	public void loginWithInvalidCredentials() {
-		
-		loginPage = new LoginPage(driver);
-		loginPage.enterLoginEmailAddress(prop.getProperty("invalidemail"));
-		loginPage.enterLoginPassword(prop.getProperty("invalidpassword"));
-		driver = loginPage.clickOnLoginButton();
-		
-		String expectedWarning = "Warning: No match for E-Mail Address and/or Password.";
-		String actualWarning = loginPage.retrieveWarningMessage();
-		Assert.assertEquals(actualWarning, expectedWarning);
-	
+		loginPage.login(prop.getProperty("invalidemail"), prop.getProperty("invalidpassword"));
+		Assert.assertEquals(loginPage.retrieveWarningMessage(),"Warning: No match for E-Mail Address and/or Password.");
 	}
 	
+	@Test(priority=3)
+	public void loginWithValidEmailAndInvalidPassword() {
+		loginPage.login(prop.getProperty("validemail"), prop.getProperty("invalidpassword"));
+		Assert.assertEquals(loginPage.retrieveWarningMessage(),"Warning: No match for E-Mail Address and/or Password.");
+	}
 	
+	@Test(priority=4)
+	public void loginWithInvalidEmailAndValidPassword() {
+		loginPage.login(prop.getProperty("invalidemail"), prop.getProperty("validpassword"));
+		Assert.assertEquals(loginPage.retrieveWarningMessage(),"Warning: No match for E-Mail Address and/or Password.");
+	}
+	
+	@Test(priority=5)
+	public void loginWithoutEnteringAnyCredentials() {
+		loginPage.login("","");
+		Assert.assertEquals(loginPage.retrieveWarningMessage(),"Warning: No match for E-Mail Address and/or Password.");
+	}
 
 }

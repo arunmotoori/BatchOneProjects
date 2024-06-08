@@ -1,0 +1,31 @@
+package pageobjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class SearchPage {
+	
+	WebDriver driver;
+	
+	private By hpProductLocator = By.linkText("HP LP3065");
+	private By noProductMessageLocator = By.xpath("//input[@id='button-search']/following-sibling::p");
+	
+	public SearchPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	private WebElement validProduct;
+	private WebElement noProductMessage;
+	
+	public boolean displayStatusOfValidProduct() {
+		validProduct = driver.findElement(hpProductLocator);
+		return validProduct.isDisplayed();
+	}
+	
+	public String retrieveNoProductMessage() {
+		noProductMessage = driver.findElement(noProductMessageLocator);
+		return noProductMessage.getText();
+	}
+
+}

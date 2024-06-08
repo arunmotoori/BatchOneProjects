@@ -26,6 +26,9 @@ public class Register {
 	
 	WebDriver driver = null;
 	Properties prop = null;
+	RegisterPage registerPage = null;
+	AccountSuccessPage accountSuccessPage = null;
+	HomePage homePage = null;
 	
 	@BeforeMethod
 	public void setup() throws FileNotFoundException, IOException {
@@ -49,9 +52,8 @@ public class Register {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get(prop.getProperty("url"));
 		
-		HomePage homePage = new HomePage(driver);
-		homePage.clickOnMyAccountDropMenu();
-		driver = homePage.selectRegisterOption();
+		homePage = new HomePage(driver);
+		registerPage = homePage.navigateToRegisterPage();
 	
 	}
 	
@@ -64,29 +66,29 @@ public class Register {
 	
 	@Test(priority=1)
 	public void registerWithAllFields() {
-		
-		RegisterPage registerPage = new RegisterPage(driver);
-		registerPage.enterFirstNameToRegister(prop.getProperty("firstname"));
-		registerPage.enterLastNameToRegister(prop.getProperty("lastname"));
-		registerPage.enterEmailToRegister(generateNewEmail());
-		registerPage.enterTelephoneToRegister(prop.getProperty("telephone"));
-		registerPage.enterPasswordToRegister(prop.getProperty("validpassword"));
-		registerPage.enterPasswordConfirmToRegister(prop.getProperty("validpassword"));
-		registerPage.selectYesNewsletterOption();
-		registerPage.selectPrivacyPolicy();
-		driver = registerPage.clickOnContinueButton();
-		AccountSuccessPage accountSuccessPage = new AccountSuccessPage(driver);
-		String expectedPageHeading = "Your Account Has Been Created!";
-		String acutalPageHeading = accountSuccessPage.retrieveSuccessPageHeading();
-		Assert.assertEquals(acutalPageHeading, expectedPageHeading);
+		accountSuccessPage = registerPage.register(prop.getProperty("firstname"),prop.getProperty("lastname"), generateNewEmail(), prop.getProperty("telephone"),prop.getProperty("validpassword"),true,true);
+		Assert.assertEquals(accountSuccessPage.retrieveSuccessPageHeading(),"Your Account Has Been Created!");
+	}
 	
+	@Test(priority=2)
+	public void registerWithMandatoryFields() {
+		accountSuccessPage = registerPage.register(prop.getProperty("firstname"),prop.getProperty("lastname"), generateNewEmail(), prop.getProperty("telephone"),prop.getProperty("validpassword"),false,true);
+		Assert.assertEquals(accountSuccessPage.retrieveSuccessPageHeading(),"Your Account Has Been Created!");
+	}
+	
+	@Test(priority=3)
+	public void registerWithoutEnteringAnyDetails() {
+		registerPage.register("","","","","",false,false);
+		Assert.assertEquals(registerPage.retriveFirstNameError(), "First Name must be between 1 and 32 characters!");
+		Assert.assertEquals(registerPage.retrieveLastNameError(), "Last Name must be between 1 and 32 characters!");
+		Assert.assertEquals(registerPage.retriveEmailError(), "E-Mail Address does not appear to be valid!");
+		Assert.assertEquals(registerPage.retrieveTelephoneError(), "Telephone must be between 3 and 32 characters!");
+		Assert.assertEquals(registerPage.retrievePasswordError(), "Password must be between 4 and 20 characters!");
+		Assert.assertEquals(registerPage.retrievePrivacyPolicyError(), "Warning: You must agree to the Privacy Policy!");
 	}
 	
 	public String generateNewEmail() {
-		
-		Date date = new Date();
-		return "arun"+date.toString().replace(" ","_").replace(":","_")+"@gmail.com";
-		
+		return "arun"+new Date().toString().replace(" ","_").replace(":","_")+"@gmail.com";
 	}
 	
 
