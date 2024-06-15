@@ -101,7 +101,7 @@ public class RegisterPage {
 		if(newsletter)
 			selectYesNewsletterOption();
 		if(privacyPolicy)
-		 selectPrivacyPolicy();
+			selectPrivacyPolicy();
 		return clickOnContinueButton();
 	}
 	

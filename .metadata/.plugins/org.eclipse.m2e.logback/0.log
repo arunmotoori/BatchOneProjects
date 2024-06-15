@@ -9495,3 +9495,301 @@ org.eclipse.core.runtime.CoreException: Launch configuration Login references no
 2024-06-08 21:40:36,731 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMPFProj\src\main\resources
 2024-06-08 21:40:36,735 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-06-08 21:40:36,735 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMPFProj\src\test\resources
+2024-06-08 21:46:32,233 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-08 21:46:32,234 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMPFProj\src\main\resources
+2024-06-08 21:46:32,242 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-08 21:46:32,243 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMPFProj\src\test\resources
+2024-06-09 17:42:24,962 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-15 18:09:13,116 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-15 18:11:44,484 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234 [635])
+2024-06-15 18:11:44,502 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234
+2024-06-15 18:11:44,505 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\aopalliance-1.0.jar
+2024-06-15 18:11:44,507 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\guice-5.1.0.jar
+2024-06-15 18:11:44,509 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpclient-4.5.14.jar
+2024-06-15 18:11:44,510 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpcore-4.4.16.jar
+2024-06-15 18:11:44,511 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jansi-2.4.0.jar
+2024-06-15 18:11:44,512 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jcl-over-slf4j-1.7.36.jar
+2024-06-15 18:11:44,513 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-artifact-3.9.6.jar
+2024-06-15 18:11:44,515 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-builder-support-3.9.6.jar
+2024-06-15 18:11:44,516 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-compat-3.9.6.jar
+2024-06-15 18:11:44,518 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-core-3.9.6.jar
+2024-06-15 18:11:44,519 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-embedder-3.9.6.jar
+2024-06-15 18:11:44,520 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-3.9.6.jar
+2024-06-15 18:11:44,521 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-builder-3.9.6.jar
+2024-06-15 18:11:44,521 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-plugin-api-3.9.6.jar
+2024-06-15 18:11:44,522 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-repository-metadata-3.9.6.jar
+2024-06-15 18:11:44,523 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-api-1.9.18.jar
+2024-06-15 18:11:44,524 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-connector-basic-1.9.18.jar
+2024-06-15 18:11:44,525 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-impl-1.9.18.jar
+2024-06-15 18:11:44,526 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-named-locks-1.9.18.jar
+2024-06-15 18:11:44,527 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-provider-3.9.6.jar
+2024-06-15 18:11:44,528 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-spi-1.9.18.jar
+2024-06-15 18:11:44,530 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-file-1.9.18.jar
+2024-06-15 18:11:44,532 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-http-1.9.18.jar
+2024-06-15 18:11:44,533 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-wagon-1.9.18.jar
+2024-06-15 18:11:44,534 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-util-1.9.18.jar
+2024-06-15 18:11:44,535 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-3.9.6.jar
+2024-06-15 18:11:44,536 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-builder-3.9.6.jar
+2024-06-15 18:11:44,537 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-shared-utils-3.3.4.jar
+2024-06-15 18:11:44,539 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-06-15 18:11:44,541 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-06-15 18:11:44,542 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-build-api-0.0.7.jar
+2024-06-15 18:11:44,542 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-cipher-2.0.jar
+2024-06-15 18:11:44,544 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-classworlds-2.7.0.jar
+2024-06-15 18:11:44,545 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-component-annotations-2.1.0.jar
+2024-06-15 18:11:44,546 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-interpolation-1.26.jar
+2024-06-15 18:11:44,547 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-sec-dispatcher-2.0.jar
+2024-06-15 18:11:44,548 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-utils-3.5.1.jar
+2024-06-15 18:11:44,549 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-file-3.5.3.jar
+2024-06-15 18:11:44,550 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-3.5.3.jar
+2024-06-15 18:11:44,550 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-shared-3.5.3.jar
+2024-06-15 18:11:44,551 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-provider-api-3.5.3.jar
+2024-06-15 18:11:44,561 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [14])
+2024-06-15 18:11:44,563 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\com.google.guava_33.0.0.jre.jar
+2024-06-15 18:11:44,564 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.13 [998])
+2024-06-15 18:11:44,566 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\slf4j.api_2.0.13.jar
+2024-06-15 18:11:44,567 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [32])
+2024-06-15 18:11:44,569 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-06-15 18:11:44,569 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [27])
+2024-06-15 18:11:44,571 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2024-06-15 18:11:44,572 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [75])
+2024-06-15 18:11:44,574 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.apache.commons.cli_1.6.0.jar
+2024-06-15 18:11:44,574 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [78])
+2024-06-15 18:11:44,576 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-06-15 18:11:44,576 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [86])
+2024-06-15 18:11:44,578 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-06-15 18:11:44,579 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [15])
+2024-06-15 18:11:44,581 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\arunm\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-06-15 18:11:44,627 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\arunm\AppData\Local\Temp\m2e-archetypeGenerator3574798522260598439":
+2024-06-15 18:11:44,650 [Worker-11: Launching mavenrun-41711914-1c76-4f90-a2e4-b84d9a24d80b] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DgroupId=pademo -DartifactId=POIAPIDemo -Dversion=0.0.1-SNAPSHOT -Dpackage=ppack -DoutputDirectory=C:\QAFox\BatchOne -Dstyle.color=always -U archetype:generate
+2024-06-15 18:12:18,345 [Worker-15: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\QAFox\BatchOne\POIAPIDemo\pom.xml
+2024-06-15 18:12:22,374 [Worker-15: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pademo:POIAPIDemo:0.0.1-SNAPSHOT @ C:\QAFox\BatchOne\POIAPIDemo\pom.xml.
+2024-06-15 18:12:25,766 [Worker-15: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /POIAPIDemo/src/main/java
+2024-06-15 18:12:25,785 [Worker-15: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /POIAPIDemo/src/main/resources
+2024-06-15 18:12:25,806 [Worker-15: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /POIAPIDemo/src/test/java
+2024-06-15 18:12:25,813 [Worker-15: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /POIAPIDemo/src/test/resources
+2024-06-15 18:12:26,214 [Worker-15: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2024-06-15 18:12:33,267 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:33,268 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\FrameworkConceptsProject\src\main\resources
+2024-06-15 18:12:33,279 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:33,280 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\FrameworkConceptsProject\src\test\resources
+2024-06-15 18:12:35,976 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:35,979 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\PFProj\src\main\resources
+2024-06-15 18:12:35,987 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:35,989 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\PFProj\src\test\resources
+2024-06-15 18:12:36,283 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:36,285 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:12:36,293 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:36,293 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:12:37,322 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:37,323 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMPFProj\src\main\resources
+2024-06-15 18:12:37,331 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:37,331 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMPFProj\src\test\resources
+2024-06-15 18:12:38,396 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:38,397 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMProj\src\main\resources
+2024-06-15 18:12:38,441 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:38,442 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POMProj\src\test\resources
+2024-06-15 18:12:38,844 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:38,845 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\PropertiesDemo\src\main\resources
+2024-06-15 18:12:38,952 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:38,953 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\PropertiesDemo\src\test\resources
+2024-06-15 18:12:43,554 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:43,555 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\SeleniumFirstProject\src\main\resources
+2024-06-15 18:12:43,563 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:43,565 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\SeleniumFirstProject\src\test\resources
+2024-06-15 18:12:44,860 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:44,861 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\TestNGParallelExecutionProj\src\main\resources
+2024-06-15 18:12:44,870 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:44,871 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\TestNGParallelExecutionProj\src\test\resources
+2024-06-15 18:12:45,837 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:45,838 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\TestNGParameterizationDemo\src\main\resources
+2024-06-15 18:12:45,850 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:12:45,850 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\TestNGParameterizationDemo\src\test\resources
+2024-06-15 18:14:29,914 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:14:29,916 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:14:29,924 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:14:29,925 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:14:34,860 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:14:34,861 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:14:34,871 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:14:34,872 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:15:14,162 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pademo:POIAPIDemo:0.0.1-SNAPSHOT @ C:\QAFox\BatchOne\POIAPIDemo\pom.xml.
+2024-06-15 18:15:14,435 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:15:14,437 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:15:14,443 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:15:14,444 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:15:15,771 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:15:15,772 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:15:15,780 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:15:15,781 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:16:48,068 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:16:48,069 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:16:48,079 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:16:48,079 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:17:24,692 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:17:24,693 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:17:24,700 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:17:24,701 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:18:04,662 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:18:04,680 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-15 18:18:04,688 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:18:04,689 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-15 18:18:06,340 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:18:06,342 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-15 18:18:06,351 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:18:06,352 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-15 18:18:21,858 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-15 18:18:23,335 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pademo:POIAPIDemo:0.0.1-SNAPSHOT @ C:\QAFox\BatchOne\POIAPIDemo\pom.xml.
+2024-06-15 18:18:23,623 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /POIAPIDemo/src/main/java
+2024-06-15 18:18:23,628 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /POIAPIDemo/src/main/resources
+2024-06-15 18:18:23,637 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /POIAPIDemo/src/test/java
+2024-06-15 18:18:23,640 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /POIAPIDemo/src/test/resources
+2024-06-15 18:18:24,181 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-06-15 18:18:24,369 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:18:24,371 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-15 18:18:24,379 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:18:24,380 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-15 18:29:43,003 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:29:43,005 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:29:43,027 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:29:43,027 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-06-15 18:31:39,826 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:31:39,827 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\FrameworkConceptsProject\src\main\resources
+2024-06-15 18:31:39,836 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:31:39,837 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\FrameworkConceptsProject\src\test\resources
+2024-06-15 18:32:17,887 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:32:17,887 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:32:17,891 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:32:17,905 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-15 18:32:48,464 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:32:48,465 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:32:48,474 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:32:48,477 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-06-15 18:40:01,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:40:01,086 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:40:01,093 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:40:01,098 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-06-15 18:46:39,891 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-15 18:46:42,343 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pademo:POIAPIDemo:0.0.1-SNAPSHOT @ C:\QAFox\BatchOne\POIAPIDemo\pom.xml.
+2024-06-15 18:46:42,623 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /POIAPIDemo/src/main/java
+2024-06-15 18:46:42,626 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /POIAPIDemo/src/main/resources
+2024-06-15 18:46:42,630 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /POIAPIDemo/src/test/java
+2024-06-15 18:46:42,632 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /POIAPIDemo/src/test/resources
+2024-06-15 18:46:42,979 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2024-06-15 18:46:43,146 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:46:43,146 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:46:43,156 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:46:43,159 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-06-15 18:46:49,180 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:46:49,180 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:46:49,185 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:46:49,188 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2024-06-15 18:47:27,435 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:47:27,436 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:47:27,444 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:47:27,445 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:48:15,705 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:48:15,706 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:48:15,713 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:48:15,714 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:48:33,336 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:48:33,336 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:48:33,344 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:48:33,344 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:55:30,101 [Worker-33: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pademo:POIAPIDemo:0.0.1-SNAPSHOT @ C:\QAFox\BatchOne\POIAPIDemo\pom.xml.
+2024-06-15 18:55:30,665 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:55:30,666 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:55:30,675 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:55:30,676 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:55:32,505 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:55:32,506 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:55:32,527 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:55:32,527 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 18:58:48,845 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:58:48,847 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 18:58:48,893 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 18:58:48,895 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:06:34,019 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:06:34,020 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:06:34,032 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:06:34,034 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:11:41,999 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:11:42,001 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:11:42,007 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:11:42,008 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:12:11,323 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:12:11,324 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:12:11,330 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:12:11,330 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:23:20,425 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:23:20,430 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:23:20,439 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:23:20,441 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:25:01,072 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:25:01,073 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:25:01,079 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:25:01,080 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:25:27,463 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:25:27,464 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:25:27,472 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:25:27,472 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:25:56,112 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:25:56,112 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:25:56,117 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:25:56,118 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:26:17,183 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:26:17,184 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:26:17,191 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:26:17,192 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:26:38,127 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:26:38,130 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:26:38,140 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:26:38,141 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:27:07,979 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:27:07,980 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:27:07,986 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:27:07,988 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:28:26,075 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:28:26,076 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:28:26,083 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:28:26,083 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:32:05,919 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:32:05,920 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:32:05,924 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:32:05,924 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:32:13,663 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:32:13,665 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:32:13,681 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:32:13,681 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:35:40,088 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:35:40,091 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:35:40,099 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:35:40,100 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:35:57,320 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:35:57,321 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:35:57,327 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:35:57,328 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:36:22,966 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:36:22,966 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:36:22,977 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:36:22,977 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:37:05,868 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:37:05,869 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:37:05,874 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:37:05,875 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:37:30,351 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:37:30,351 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:37:30,360 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:37:30,360 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:38:08,461 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:38:08,462 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:38:08,467 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:38:08,467 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:38:34,845 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:38:34,846 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:38:34,857 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:38:34,858 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
+2024-06-15 19:39:23,011 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:39:23,011 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\main\resources
+2024-06-15 19:39:23,016 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-15 19:39:23,017 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\QAFox\BatchOne\POIAPIDemo\src\test\resources
