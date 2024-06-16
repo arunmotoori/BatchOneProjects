@@ -28,10 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ppack"/>
 		</list>
 		<list key="groupId">
+			<item value="pademo"/>
 		</list>
 		<list key="artifactId">
+			<item value="POIAPIDemo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
